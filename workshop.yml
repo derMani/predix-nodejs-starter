@@ -10,7 +10,7 @@ services:
 env:
     node_env: cloud
     uaa_service_label : predix-uaa
-    clientId: app-client-id
-    base64ClientCredential: YXBwLWNsaWVudC1pZDpzZWNyZXQ=
+    clientId: app_client_id
+    base64ClientCredential: YXBwX2NsaWVudF9pZDo=
     # Following properties configured only for Timeseries WindData service Integration
     windServiceUrl: https://machine-workshop-training4.run.aws-usw02-pr.ice.predix.io
